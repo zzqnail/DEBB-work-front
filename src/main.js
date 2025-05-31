@@ -5,6 +5,8 @@ import {createRouter, createWebHistory} from 'vue-router'
 import MainPagevue from './pages/MainPage.vue'
 import AuthPagevue from './pages/AuthPage.vue'
 import PrimeVue from 'primevue/config';
+import Aura from '@primeuix/themes/aura';
+
 
 
 
@@ -25,4 +27,9 @@ const router = createRouter({
 })
 
 
-createApp(App).use(router).use(PrimeVue).mount('#app')
+createApp(App).use(router).use(PrimeVue, {
+    theme: {
+        preset: Aura
+    }
+}
+).mount('#app')
