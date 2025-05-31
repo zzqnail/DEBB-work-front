@@ -1,0 +1,4 @@
+<template>
+    MAIN PAGE
+
+</template>
