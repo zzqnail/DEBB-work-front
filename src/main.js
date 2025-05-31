@@ -5,6 +5,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 import MainPagevue from './pages/MainPage.vue'
 
 
+
 const router = createRouter({
     history: createWebHistory(),
     routes: [
